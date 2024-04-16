@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="exm.kraynova.regis"
+        Icon="Assets/123.jpeg"
+        Title="regis">
+    <StackPanel>
+        <Button Name="Back" Content="Back" Click="Back_OnClick"></Button>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="Add" Content="Add" Click="Add_OnClick"></Button>
+        </StackPanel>
+        <StackPanel>
+            <TextBox Name="text1" Watermark="name"></TextBox>
+            <TextBox Name="text2" Watermark="last_name"></TextBox>
+            <TextBox Name="text3" Watermark="phone"></TextBox>
+            <TextBox Name="text4" Watermark="year"></TextBox>
+            <TextBox Name="text5" Watermark="mw"></TextBox>
+        </StackPanel>
+    </StackPanel>
+</Window>
+
+
